@@ -32,8 +32,8 @@ import { useStore } from '../pinia/store.js';
 const store = useStore()
 const chatroom = ref(null)
 const settime = () => setTimeout(() => {
-    store.chatmessage.push({ uid: 0, text: '本站开发者：路远兮' });
-}, 2000);
+    store.chatmessage.push({ uid: 0, text: '本站开发作者：路远兮' });
+}, 5000);
 settime();
 
 function scrollbottom() {
